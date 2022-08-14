@@ -4,182 +4,172 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./mobile.css">
-
+    <title>Portfolio - NITHISH</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "style.css">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="brand">
-            <img src="" alt="" class="logo">
-        </div>
-        <div class="nav-list">
-            <ul>
-                <a href="#header"><li>Home</li></a>
-                <a href="#skills"><li>Skills</li></a>
-                <a href="#portfolio"><li>Projects</li></a>
-                <a href="#contact"><li>Contact</li></a>
-            </ul>
-        </div>
-        <div class="social-icons">
-            <ul>
-                <li><a href="https://twitter.com/Nithish_1917" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://github.com/Nithishkumar19" target="_blank"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/nithish-kumar-r19/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-            </ul>
-        </div>
-       
-    </nav>
-    <div class="toggle-btn">
-        <i class="fa fa-bars"></i>
-    </div>
+    <header id = "header" class = "vh-100 flex">
+        <div class = "container">
+            <div class = "header-content">
+                <h1>I'm a <br><span class = "typewrite" data-loop = "yes" data-speed = "100" data-delay = "2000" data-words = '["Web developer", "Programmer", "Explorer"]'></span></h1>
+                <h3>Nithish kumar</h3>
 
-    <div id="header" class="container">
-        <div class="circle"></div>
-        <div class="row hero">
-            <div class="col col-1">
-                <h1>Hey, I’m a <span class="highlight">Front-End</span> web developer. </h1>
-                <p>Hi, I'm Nithish kumar a web developer
-                    I help brands turn their ideas into high quality websites.</p>
-                <a href="#" class="ctn">Contact</a>    
-            </div>
-            <div class="col col-2">
-                <div class="hero-img">
-                    <img src="./img/pic.png" alt="">
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div id="skills" class="container">
-        <div class="title">
-            <h1>My Skills</h1>
-        </div>
-        <div class="grid-wrapper">
-            <div class="grid-box">
-                <div class="icon-title">
-                    <img src="./img/skill-1.png" alt="">
-                    <h2>C</h2>
-                </div>
-                <p>  C is a general-purpose computer programming language. It was created in the 1970s by Dennis Ritchie, and remains very widely used and influential.</p>
-            </div>
-            <div class="grid-box">
-                <div class="icon-title">
-                    <img src="./img/skill-2.png" alt="">
-                    <h2>HTML</h2>
-                </div>
-                <p> The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
-            </div>
-            <div class="grid-box">
-                <div class="icon-title">
-                    <img src="./img/skill-3.png" alt="">
-                    <h2>CSS</h2>
-                </div>
-                <p> Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
-            </div>
-            <!--<div class="grid-box">
-                <div class="icon-title">
-                    <img src="./img/skill-4.png" alt="">
-                    <h2> </h2>
-                </div>
-                <p> </p>
-            </div>-->
-           
-        </div>
-    </div>
-
-    <div id="portfolio" class="container">
-        <div class="rect-bg"></div>
-        <div class="title">
-            <h3>PORTFOLIO</h3>
-            <div class="ctn-title">
-                <h1>All Creative Works</h1>
-                <h4>Discover All Projects on <span class="highlight">Github <i class="fa fa-arrow-right"></i></span></h4>
-            </div>
-        </div>
-        <div class="grid-wrapper">
-            <div class="grid-box">
-                <img src="./img/project1.png" alt="" width="300" height="297">
-                <div class="hover">
-                    <h4>Web-course-registration</h4>
-                    <a href="https://github.com/Nithishkumar19/Web-course-registration" target="_blank" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-                </div>
-            </div>
-            <div class="grid-box">
-                <img src="./img/project2.png" alt="">
-                <div class="hover">
-                    <h4>Youtube</h4>
-                    <a href="https://github.com/Nithishkumar19/youtube" target="_blank" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-                </div>
-                
-            </div>
-            <!--<div class="grid-box">
-                <img src="./img/prj-1.png" alt="">
-                <div class="hover">
-                    <h4>Application</h4>
-                    <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-                </div>
-               
-            </div>
-            <div class="grid-box">
-                <img src="./img/prj-2.png" alt="">
-                <div class="hover">
-                    <h4>Application</h4>
-                    <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-                </div>
-            
-            </div>
-            <div class="grid-box">
-                <img src="./img/prj-3.png" alt="">
-                <div class="hover">
-                    <h4>Application</h4>
-                    <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-                </div>
-               
-            </div>
-            <div class="grid-box">
-                <img src="./img/prj-4.png" alt="">
-                <div class="hover">
-                    <h4>Application</h4>
-                    <a href="#" class="highlight">Github <i class="fa fa-arrow-right"></i></a>
-                </div>
-               
-            </div>-->
-        </div>
-    </div>
-
-    <div id="contact">
-        <div class="container">
-            <h3>CONTACT ME</h3>
-            <h1>Got A Project! Let's Talk</h1>
-            <h3><a href="mailto:nithishkumar1904@gmail.com"><i class="fa fa-envelope-o"></i> nithishkumar1904@gmail.com</a></h3>
-            <div class="quick-links">
-                <div class="brand"><img src="" alt=""></div>
-                <ul>
-                    <a href="#header"><li>Home</li></a>
-                    <a href="#skills"><li>Skills</li></a>
-                    <a href="#portfolio"><li>Projects</li></a>
-                    <a href="#contact"><li>Contact</li></a>
+                <ul class = "social-links">
+                    <li>
+                        <a href = "https://github.com/Nithishkumar19" target="_blank" class = "flex">
+                            <i class = "fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "https://twitter.com/Nithish_1917" target="_blank" class = "flex">
+                            <i class = "fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href = "https://www.linkedin.com/in/nithish-kumar-r19/" target="_blank" class = "flex">
+                            <i class = "fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <!--<li>
+                        <a href = "#" class = "flex">
+                            <i class = "fab fa-instagram"></i>
+                        </a>
+                    </li>-->
                 </ul>
             </div>
         </div>
+    </header>
+   
+    <main>
+       
+        <section id = "about" class = "about py-7">
+            <div class = "container">
+                <div class = "about-content grid">
+                    <div class = "about-left">
+                        <img src = "images/about-pic.jpg" alt = "">
+                    </div>
+                    <div class = "about-right">
+                        <div class = "title">
+                            <h2>About Me</h2>
+                        </div>
+                        <p class = "lead">I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design.</p>
+                        <p class = "lead"> I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+                        <a href = "#work" class = "btn-down">
+                            <i class = "fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
         
-    </div>
- 
-    
-    <script>
-        let togglebtn = document.querySelector('.toggle-btn')
-        let navbar = document.querySelector('.navbar')
+        <section id = "work" class = "vh-100 flex py-7">
+            <div class = "container">
+                <div class = "work-content">
+                    <div class = "title">
+                        <h2>My skills</h2>
+                    </div>
+                    <ul class = "work-top grid">
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> C is a general-purpose computer programming language. It was created in the 1970s by Dennis Ritchie, and remains very widely used and influential.</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</li>
+                        <li class = "lead"><i class = "fas fa-dot-circle"></i> Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</li>
+                    </ul>
 
-        togglebtn.addEventListener('click', ()=>{
-            navbar.classList.toggle('mobile-nav')
-        } )
-    </script>
+                    <div class = "work-bottom grid">
+                        <div>
+                            <span class = "icon"><img src = "images/skill-1.png"></span>
+                            <h3>C</h3>
+                        </div>
+                        <div>
+                            <span class = "icon"><img src = "images/skill-2.png"></span>
+                            <h3>HTML</h3>
+                        </div>
+                        <div>
+                            <span class = "icon"><img src = "images/skill-3.png"></span>
+                            <h3>CSS</h3>
+                        </div>
+                        <!--<div>
+                            <span class = "icon"><img src = "images/skill-4.png"></span>
+                            <h3>Family</h3>
+                        </div>-->
+                    </div>
+                    <a href = "#portfolio" class = "btn-down btn-down-white">
+                        <i class = "fas fa-chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id = "portfolio" class = "vh-100 py-7">
+            <div class = "container">
+                <div class = "portfolio-content">
+                    <div class = "title">
+                        <h2>my last works</h2>
+                        <a href = "#contact" class = "btn-down">
+                            <i class = "fas fa-chevron-down"></i>
+                        </a>
+                    </div>
+
+                    <div class = "portfolio-grid grid">
+                        <div><a href="https://github.com/Nithishkumar19/Web-course-registration" target="_blank" ><img src = "images/project1.png"></a></div>
+                        <!--<div><img src = "images/project.png"></div>-->
+                        <div><a href="https://github.com/Nithishkumar19/youtube" target="_blank" ><img src = "images/project2.png"></a></div>
+                        <!--<div><img src = "images/port-4.jpg"></div>
+                        <div><img src = "images/port-5.jpg"></div>
+                        <div><img src = "images/port-6.jpg"></div>
+                        <div><img src = "images/port-7.jpg"></div>-->
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id = "contact" class = "py-7">
+            <div class = "container">
+                <div class = "contact-content flex">
+                    <div class = "contact-left">
+                        <div class="title">
+                            <h2>contact me</h2>
+                        </div>
+                        <p class = "lead"><i class = "fas fa-phone-alt"></i> +91 75488 61618</p>
+                        <p class = "lead"><i class = "fas fa-envelope"></i> nithishkumar1904@gmail.com</p>
+                        <form action="">
+                            <input type = "text" class = "form-control" placeholder="Your name here ...">
+                            <input type = "email" class = "form-control" placeholder="Your email here">
+                            <input type = "submit" class = "btn-submit btn" value = "Submit">
+                        </form>
+                    </div>
+
+                    <div class = "contact-right">
+                        <img src = "images/contact-pic.jpg" alt = "contact image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id = "footer" class = "py-7">
+        <div class = "container">
+            <div class = "footer-content">
+                <div>
+                    <h3>NITHISH KUMAR</h3>
+                    <div><img src = "images/about-pic.jpg"></div>
+                </div>
+
+                <div>
+                    <h3>Links</h3>
+                    <ul class = "flex">
+                        <li><a href = "#about">About Me</a></li>
+                        <li><a href = "#work">Skills</a></li>
+                        <li><a href = "#portfolio">Projects</a></li>
+                        <li><a href = "#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src = "main.js"></script>
 </body>
 </html>
