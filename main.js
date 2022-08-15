@@ -1,3 +1,5 @@
+
+
  class typeWriting {
 
     constructor(element) {
