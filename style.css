@@ -219,6 +219,20 @@ h1, h2, h3{
 .contact-left .btn-submit:hover{
     background-color: #000;
 }
+.ctn {
+    width: 125px;
+    padding: 8px 12px;
+    background: var(--h1);
+    color: #332e29;
+    border-radius: 5px;
+    text-align: center;
+}
+.ctn:hover {
+    background: grey;
+    border: 1px solid var(--h1);
+    color: var(--h1);
+    font-weight: bold;
+}
 
 
 #footer{
